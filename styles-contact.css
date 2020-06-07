@@ -1,0 +1,145 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 2;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("images/backgroundphoto.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	
+	
+}
+
+.center {
+    width: 600px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(248, 143, 5, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 8px double rgb(14, 12, 11)
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border: 3px none black;
+	text-align: center;
+}
+
+h1 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/rye5ubg.css">, */
+	font-family: utopia-std-headline;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: rgb(110, 30, 19);
+}
+
+h2 {
+	 /* <link rel="stylesheet" href="https://use.typekit.net/rye5ubg.css">*/
+	font-family: rosewood-std-fill;
+	font-size: 3em;
+    line-height: 1.6;
+    color: rgb(110, 30, 19);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	/* <link rel="stylesheet" href="https://use.typekit.net/rye5ubg.css"> */
+	font-family: utopia-std-headline;
+	font-size: 1.2em;
+    line-height: 1.2;
+    color: rgb(110, 30, 19);
+}
+nav{
+	font-family: utopia-std-headline;
+	font-size: 1.2 em;
+	width: 400px;
+	margin: 0 auto;
+	border: solid black;
+	border-width: 3px 0; 
+	text-align: center;
+	margin-top: 2em;
+}
+ 
+nav li{
+	display: inline;
+
+}
+
+nav a{
+	display: inline-block;
+	padding: 5px;
+
+}
+a{
+	color: #444;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover{
+	color: black;
+	background: rgb(238, 238, 162)
+}
+    
+
